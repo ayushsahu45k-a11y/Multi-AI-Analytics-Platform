@@ -18,6 +18,9 @@ Place these files in the SAME folder as app.py:
     config.py
     utils/helpers.py
 """
+import os
+port = int(os.environ.get("PORT", 10000))
+
 import warnings
 warnings.filterwarnings("ignore")
 
