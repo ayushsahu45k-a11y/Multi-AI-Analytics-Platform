@@ -1,0 +1,46 @@
+# ══════════════════════════════════════════════
+#  Multi-AI Analytics Platform v2.0
+#  Merged Requirements
+# ══════════════════════════════════════════════
+
+# ── Core ──────────────────────────────────────
+streamlit>=1.32.0
+pandas>=2.0.0
+numpy>=1.24.0
+pillow>=10.0.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# ── Machine Learning ──────────────────────────
+scikit-learn>=1.4.0
+xgboost>=2.0.0
+lightgbm>=4.0.0
+
+# ── Deep Learning (choose one or both) ───────
+torch>=2.1.0
+torchvision>=0.16.0
+tensorflow>=2.13.0          # Optional — comment out if using PyTorch only
+
+# ── NLP / HuggingFace ─────────────────────────
+transformers>=4.38.0
+sentencepiece>=0.1.99       # Required by some HuggingFace tokenizers
+
+# ── Computer Vision ───────────────────────────
+opencv-python-headless>=4.8.0
+
+# ── Visualization ─────────────────────────────
+plotly>=5.18.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# ── Generative AI Providers ───────────────────
+openai>=1.12.0              # For GPT-4o + DALL-E 3 image generation
+google-generativeai>=0.4.0  # For Gemini
+anthropic>=0.20.0           # For Claude
+
+# ── Export ────────────────────────────────────
+pyarrow>=14.0.0             # For Parquet export (Power BI)
+
+# ── Optional ──────────────────────────────────
+# accelerate>=0.24.0        # Faster HuggingFace inference
+# kaleido>=0.2.1            # Save Plotly charts as images
