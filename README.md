@@ -22,7 +22,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Open → **http://localhost:8501**
+Open → **https://huggingface.co/ayushsahu45**
 
 ---
 
